@@ -1,0 +1,412 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Dhobi Kana™ Premium Garment Care</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "inverse-surface": "#2d3133",
+                    "error-container": "#ffdad6",
+                    "secondary-fixed": "#a2eeff",
+                    "on-surface-variant": "#444650",
+                    "surface": "#f7f9fb",
+                    "surface-bright": "#f7f9fb",
+                    "secondary-container": "#5ce6ff",
+                    "on-background": "#191c1e",
+                    "tertiary-fixed": "#d0e7ea",
+                    "on-secondary-fixed": "#001f25",
+                    "surface-variant": "#e0e3e5",
+                    "primary-fixed-dim": "#b3c5ff",
+                    "surface-container": "#eceef0",
+                    "tertiary-fixed-dim": "#b4cbce",
+                    "primary": "#00113a",
+                    "on-secondary-container": "#006573",
+                    "on-tertiary": "#ffffff",
+                    "on-primary": "#ffffff",
+                    "inverse-primary": "#b3c5ff",
+                    "on-secondary": "#ffffff",
+                    "on-tertiary-container": "#7e9497",
+                    "surface-container-low": "#f2f4f6",
+                    "on-error": "#ffffff",
+                    "secondary": "#006877",
+                    "on-primary-container": "#758dd5",
+                    "surface-tint": "#435b9f",
+                    "primary-fixed": "#dbe1ff",
+                    "surface-container-high": "#e6e8ea",
+                    "surface-container-highest": "#e0e3e5",
+                    "surface-container-lowest": "#ffffff",
+                    "on-primary-fixed-variant": "#2a4386",
+                    "outline": "#757682",
+                    "on-tertiary-fixed": "#091f21",
+                    "tertiary": "#02171a",
+                    "error": "#ba1a1a",
+                    "secondary-fixed-dim": "#48d8f1",
+                    "surface-dim": "#d8dadc",
+                    "outline-variant": "#c5c6d2",
+                    "inverse-on-surface": "#eff1f3",
+                    "on-secondary-fixed-variant": "#004e5a",
+                    "background": "#f7f9fb",
+                    "on-error-container": "#93000a",
+                    "tertiary-container": "#172c2e",
+                    "on-tertiary-fixed-variant": "#364a4d",
+                    "on-surface": "#191c1e",
+                    "on-primary-fixed": "#00174a",
+                    "primary-container": "#002366"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "xxl": "1.5rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Manrope"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+        }
+        .service-tile-hint {
+            background-color: rgba(162, 238, 255, 0.05);
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #00113a 0%, #002366 100%);
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface" data-mode="connect">
+
+
+    <!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl shadow-[0px_12px_32px_rgba(0,17,58,0.06)] transition-all duration-300">
+<div class="max-w-7xl mx-auto px-8 flex justify-between items-center h-24 w-full">
+
+
+
+<div class="flex items-center gap-3">
+<a href="#" class="block">
+    <img src="logo.png" alt="Dhobi Kana logo" class="h-16 w-16 rounded-full bg-white p-1 shadow-2xl object-cover border-2 border-sky-400" />
+</a>
+<span class="text-2xl font-black tracking-tighter font-headline text-sky-400">Dhobi Kana ™</span>
+</div>
+
+
+<div class="hidden md:flex items-center space-x-10">
+<a class="text-blue-950 dark:text-sky-400 border-b-2 border-sky-400 font-bold pb-1 tracking-wider uppercase text-xs" href="#" style="">Home</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-blue-700 dark:hover:text-sky-300 transition-colors tracking-wider uppercase text-xs" href="#services" style="">Services</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-blue-700 dark:hover:text-sky-300 transition-colors tracking-wider uppercase text-xs" 
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-blue-700 dark:hover:text-sky-300 transition-colors tracking-wider uppercase text-xs" href="#about" style="">About</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-blue-700 dark:hover:text-sky-300 transition-colors tracking-wider uppercase text-xs" href="#contact" style="">Contact</a>
+</div>
+
+
+<a class="inline-flex items-center gap-3 bg-[#25D366] text-white px-10 py-5 rounded-xxl font-bold text-lg shadow-lg hover:scale-105 transition-all" href="https://wa.me/919677170404" style="">
+<svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.888 11.888-11.888 3.176 0 6.161 1.237 8.404 3.48s3.481 5.228 3.481 8.408c0 6.556-5.332 11.888-11.888 11.888-2.003 0-3.976-.506-5.717-1.467l-6.307 1.694zm6.386-4.712c1.556.924 3.39 1.411 5.266 1.411 5.523 0 10.017-4.494 10.017-10.017 0-2.677-1.042-5.193-2.935-7.086-1.892-1.893-4.408-2.935-7.082-2.935-5.523 0-10.017 4.494-10.017 10.017 0 1.871.517 3.694 1.493 5.25l-.995 3.637 3.733-.98c1.516.822 3.228 1.254 4.975 1.254z"></path></svg>
+                        Schedule Pickup
+                    </a>
+</div>
+</nav>
+
+
+<!-- Hero Section -->
+<section class="relative pt-32 pb-24 lg:pt-48 lg:pb-40 overflow-hidden">
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="z-10">
+<span class="inline-block text-secondary font-headline font-bold text-sm tracking-widest uppercase mb-6" style="">Premium Fabric Care</span>
+<h1 class="text-5xl lg:text-7xl font-headline font-extrabold text-on-surface leading-[1.1] mb-8" style="">
+                    Your Premium Garment Care, <span class="text-secondary-fixed-dim" style="">Just a Click Away</span>
+</h1>
+<p class="text-lg text-on-surface-variant max-w-xl mb-12 leading-relaxed" style="">
+                    Experience the precision of Dhobi Kana. We treat your clothing with editorial-level care, from delicate silks to everyday essentials.
+                </p>
+<div class="flex flex-col sm:flex-row gap-6">
+
+<a class="inline-flex items-center gap-3 bg-[#25D366] text-white px-10 py-5 rounded-xxl font-bold text-lg shadow-lg hover:scale-105 transition-all" href="https://wa.me/919677170404" style="">
+<svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.888 11.888-11.888 3.176 0 6.161 1.237 8.404 3.48s3.481 5.228 3.481 8.408c0 6.556-5.332 11.888-11.888 11.888-2.003 0-3.976-.506-5.717-1.467l-6.307 1.694zm6.386-4.712c1.556.924 3.39 1.411 5.266 1.411 5.523 0 10.017-4.494 10.017-10.017 0-2.677-1.042-5.193-2.935-7.086-1.892-1.893-4.408-2.935-7.082-2.935-5.523 0-10.017 4.494-10.017 10.017 0 1.871.517 3.694 1.493 5.25l-.995 3.637 3.733-.98c1.516.822 3.228 1.254 4.975 1.254z"></path></svg>
+                        Schedule Pickup
+                    </a>
+
+</div>
+</div>
+<div class="relative">
+<div class="absolute -top-12 -right-12 w-72 h-72 bg-secondary-fixed/20 rounded-full blur-3xl"></div>
+<div class="relative rounded-xxl overflow-hidden shadow-2xl">
+<img class="w-full h-[600px] object-cover" data-alt="close-up of neatly folded white linen shirts on a bright shelf with soft morning sunlight creating gentle shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUF-GySdiBqonZ2dWVK22K3sfHp_DTpJC_R7jn9epdaInBtpAI6cV8LonVYrQF3FbTWMLPZJgVpZhqip8_wqea2wkCBeDxcCyJIxVQ3lmd8Q0ZyjQMu2oKAieFKhLebOIhdmUdebRH6AhdlR1L-7R75DfyMfYfijIvHMuM7ZVwnJal6UOU7_BfqjfzgEHXdG-2JUsx3oULs7t0dVzE61qKgAoe0qN2TqDOdNQ6H5BsCcN7O4F0hysln6bbMKwNHtgubeXpKlveEjs" style="">
+</div>
+<div class="absolute -bottom-8 -left-8 bg-surface-container-lowest p-8 rounded-xxl shadow-xl max-w-xs">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 bg-secondary-fixed rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" style="">verified</span>
+</div>
+<div>
+<p class="font-headline font-bold text-primary" style="">Expert Care</p>
+<p class="text-sm text-on-surface-variant" style="">Professional handling</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-24 bg-surface-container-low" id="services">
+<div class="max-w-7xl mx-auto px-8 text-center mb-20">
+<h2 class="text-4xl font-headline font-bold text-on-surface mb-4" style="">Curated Care Services</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto" style="">From precision ironing to specialized laundry, we provide the ultimate foundation for your wardrobe.</p>
+</div>
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Service 1 -->
+<div class="group bg-surface-container-lowest p-10 rounded-xxl transition-all hover:shadow-xl service-tile-hint">
+<div class="w-16 h-16 bg-secondary-fixed-dim/20 rounded-xl flex items-center justify-center mb-8 group-hover:bg-secondary-fixed-dim/40 transition-colors">
+<span class="material-symbols-outlined text-secondary scale-150" data-icon="local_laundry_service" style="">local_laundry_service</span>
+</div>
+<h3 class="text-2xl font-headline font-bold text-on-surface mb-4" style="">Laundry</h3>
+<p class="text-on-surface-variant leading-relaxed" style="">Deep-cleansing wash using eco-friendly detergents that preserve fabric integrity and color vibrancy.</p>
+</div>
+<!-- Service 2 -->
+<div class="group bg-surface-container-lowest p-10 rounded-xxl transition-all hover:shadow-xl service-tile-hint">
+<div class="w-16 h-16 bg-secondary-fixed-dim/20 rounded-xl flex items-center justify-center mb-8 group-hover:bg-secondary-fixed-dim/40 transition-colors">
+<span class="material-symbols-outlined text-secondary scale-150" data-icon="iron" style="">iron</span>
+</div>
+<h3 class="text-2xl font-headline font-bold text-on-surface mb-4" style="">Ironing</h3>
+<p class="text-on-surface-variant leading-relaxed" style="">Sharp creases and smooth finishes. Our steam-pressing technique ensures a professional, store-fresh look.</p>
+</div>
+<!-- Service 3 -->
+<div class="group bg-surface-container-lowest p-10 rounded-xxl transition-all hover:shadow-xl service-tile-hint">
+<div class="w-16 h-16 bg-secondary-fixed-dim/20 rounded-xl flex items-center justify-center mb-8 group-hover:bg-secondary-fixed-dim/40 transition-colors">
+<span class="material-symbols-outlined text-secondary scale-150" data-icon="delivery_dining" style="">delivery_dining</span>
+</div>
+<h3 class="text-2xl font-headline font-bold text-on-surface mb-4" style="">Pickup &amp; Delivery</h3>
+<p class="text-on-surface-variant leading-relaxed" style="">Effortless door-to-door service scheduled at your convenience. Premium care delivered to your doorstep.</p>
+</div>
+</div>
+</section>
+<!-- Why Choose Us: Bento Grid -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-4 gap-6">
+<div class="md:col-span-2 bg-primary-container p-12 rounded-xxl flex flex-col justify-between text-on-primary-container">
+<h2 class="text-4xl font-headline font-extrabold leading-tight mb-8 text-on-primary" style="">Why Clients Choose Dhobi Kana</h2>
+<div class="flex items-center gap-4">
+<div class="flex -space-x-4">
+<div class="w-12 h-12 rounded-full border-4 border-primary-container bg-slate-300"></div>
+<div class="w-12 h-12 rounded-full border-4 border-primary-container bg-slate-400"></div>
+<div class="w-12 h-12 rounded-full border-4 border-primary-container bg-slate-500"></div>
+</div>
+<p class="text-sm font-medium" style="">Join 2,000+ happy households</p>
+</div>
+</div>
+<div class="bg-surface-container-low p-8 rounded-xxl">
+<span class="material-symbols-outlined text-secondary-fixed-dim text-4xl mb-6" style="">bolt</span>
+<h4 class="text-xl font-headline font-bold mb-3" style="">Fast Turnaround</h4>
+<p class="text-sm text-on-surface-variant" style="">24-hour express service available for your urgent needs.</p>
+</div>
+<div class="bg-surface-container-low p-8 rounded-xxl">
+<span class="material-symbols-outlined text-secondary-fixed-dim text-4xl mb-6" style="">payments</span>
+<h4 class="text-xl font-headline font-bold mb-3" style="">Affordable</h4>
+<p class="text-sm text-on-surface-variant" style="">Transparent pricing with no hidden costs or fees.</p>
+</div>
+<div class="bg-surface-container-low p-8 rounded-xxl md:col-span-1">
+<span class="material-symbols-outlined text-secondary-fixed-dim text-4xl mb-6" style="">wash</span>
+<h4 class="text-xl font-headline font-bold mb-3" style="">Expert Care</h4>
+<p class="text-sm text-on-surface-variant" style="">Trained specialists handle every garment type.</p>
+</div>
+<div class="md:col-span-3 relative h-64 rounded-xxl overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="wide shot of a clean modern commercial laundry facility with high-tech machines and organized garment racks" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPzPt2Khci7sTRUozOOijO-zkZR7Fbz2L6eK9kjp_7wwfEPeSLtUsXIcrcZNQYj4hCdB1lvv-It_JJZoA6p3Gxbb-tp3SowSa6qNI7suRJXBFYjcW8byGD4Qlr-GPDBL67j8_nHZS58k7RvIeVfeVjn3RT1JkDhfeYDq54YNElvos4G6KEZnihXyr3IPjrd9HFn_GbOQAkTfe9ZNAbuItpSU9wmWUUrbPQwNzz3tpXt9qdiyiWb8cKsRpimDEWWGadFjQkG01-pwE" style="">
+<div class="absolute inset-0 bg-primary/20 backdrop-blur-sm flex items-center px-12">
+<p class="text-2xl font-headline font-bold text-white max-w-md" style="">Precision in every fold. Cleanliness in every fiber.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Pricing Section -->
+<section class="py-24 bg-surface-container-low" id="pricing">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-headline font-bold mb-4" style="">Simple, Minimalist Pricing</h2>
+<p class="text-on-surface-variant" style="">Quality care shouldn't be complicated.</p>
+</div>
+<div class="max-w-4xl mx-auto bg-surface-container-lowest rounded-xxl overflow-hidden shadow-sm">
+<div class="grid grid-cols-2 p-8 border-b border-outline-variant/15 bg-surface-container-high/30">
+<span class="font-headline font-bold text-secondary text-sm uppercase tracking-widest" style="">Service Type</span>
+<span class="font-headline font-bold text-secondary text-sm uppercase tracking-widest text-right" style=""></span>
+</div>
+<div class="p-8 space-y-8">
+<div class="flex justify-between items-center group">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-secondary-fixed-dim" style="">check_circle</span>
+<span class="text-lg font-medium" style="">Wash &amp; Fold </span>
+</div>
+<span class="text-2xl font-headline font-extrabold text-primary" style=""></span>
+</div>
+<div class="flex justify-between items-center group">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-secondary-fixed-dim" style="">check_circle</span>
+<span class="text-lg font-medium" style="">Premium Ironing </span>
+</div>
+<span class="text-2xl font-headline font-extrabold text-primary" style=""></span>
+</div>
+<div class="flex justify-between items-center group">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-secondary-fixed-dim" style="">check_circle</span>
+<span class="text-lg font-medium" style="">Suit Dry Clean</span>
+</div>
+<span class="text-2xl font-headline font-extrabold text-primary" style=""></span>
+</div>
+<div class="flex justify-between items-center group">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-secondary-fixed-dim" style="">check_circle</span>
+<span class="text-lg font-medium" style="">All type of Cleaning Services Including Car Wash at your Doorstep </span>
+</div>
+<span class="text-2xl font-headline font-extrabold text-primary" style=""></span>
+</div>
+</div>
+<div class="bg-surface-container p-8 text-center">
+<p class="text-on-surface-variant italic mb-0" style="">Need a custom quote for bulk orders? <a class="text-secondary font-bold underline" href="#" style="">Contact us</a></p>
+</div>
+</div>
+</div>
+</section>
+<!-- About Us -->
+<section class="py-24 bg-surface overflow-hidden" id="about">
+<div class="max-w-7xl mx-auto px-8 flex flex-col lg:flex-row items-center gap-20">
+<div class="w-full lg:w-1/2">
+<div class="relative">
+<div class="w-full h-[500px] rounded-xxl overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="portrait of a smiling professional laundry expert in a clean uniform holding a stack of perfectly folded white towels" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9C5qiun76wnPwLyF3tj4Bp67EbkQVuHZKBeLWEW_6t7LA0f9y0frD7zWb5g5HSnM6S-oJMSSTjF5Ik9TZAa3wA75rNrAFqZQRFLALPvEG1cLKd_L-hBUGNl5syCBbHkREY-yyVLZf-P234dwhp1KY2Tk0wpqdk2Wszv3qDV3io87k3Ki0dpNUfF5QxOj4iJpgWtAR0Y3Wf7uZsM_YGC6MpYpIcQksiCNhkiDo-WyR7kwrshIunOsRqCGMlAATIHlyipppmBDP6Kk" style="">
+</div>
+<div class="absolute -right-12 top-1/2 -translate-y-1/2 hidden xl:block">
+<div class="bg-secondary-fixed p-12 rounded-xxl shadow-xl">
+<span class="text-5xl font-black text-primary" style="">15+</span>
+<p class="text-primary font-bold" style="">Years of Excellence</p>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full lg:w-1/2">
+<h2 class="text-4xl font-headline font-extrabold mb-8" style="">Our Commitment to Quality</h2>
+<p class="text-lg text-on-surface-variant mb-6 leading-relaxed" style="">
+                    Founded on the principles of reliability and precision, Dhobi Kana has grown from a small family business to the region's most trusted garment care provider. 
+                </p>
+<p class="text-lg text-on-surface-variant mb-8 leading-relaxed" style="">
+                    We believe that how you present yourself starts with the care of your clothing. That's why we use state-of-the-art machinery and specialized detergents that are as gentle on the planet as they are on your fabrics. 
+                </p>
+<div class="flex items-center gap-6 p-6 bg-surface-container-low rounded-xl">
+<span class="material-symbols-outlined text-4xl text-secondary" style="">handshake</span>
+<div>
+<h4 class="font-headline font-bold" style="">Professional &amp; Friendly</h4>
+<p class="text-sm text-on-surface-variant" style="">Our staff treats your clothes as if they were their own.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact & Location -->
+<section class="py-24 bg-surface-container-low" id="contact">
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-12">
+<div class="space-y-10">
+<div>
+<h2 class="text-4xl font-headline font-bold mb-4" style="">Get in Touch</h2>
+<p class="text-on-surface-variant" style="">Ready for your clothes to feel like new? Contact our team today.</p>
+</div>
+<div class="space-y-6">
+<div class="flex items-start gap-6">
+<div class="w-12 h-12 bg-surface-container-lowest rounded-full flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-secondary" style="">location_on</span>
+</div>
+<div>
+<p class="font-headline font-bold text-primary" style="">Our Studio</p>
+<p class="text-on-surface-variant" style="">29/15 Eden Garden Street, Cooks Road, Perambur<br>Chennai - 600012&nbsp;&nbsp;</p>
+</div>
+</div>
+<div class="flex items-start gap-6">
+<div class="w-12 h-12 bg-surface-container-lowest rounded-full flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-secondary" style="">call</span>
+</div>
+<div>
+<p class="font-headline font-bold text-primary" style="">Phone</p>
+<p class="text-on-surface-variant" style="">+91 9677170404</p>
+</div>
+</div>
+</div>
+<div class="pt-6">
+
+
+<a class="inline-flex items-center gap-3 bg-[#25D366] text-white px-10 py-5 rounded-xxl font-bold text-xl shadow-lg hover:scale-105 transition-all" href="https://wa.me/919677170404" style="">
+<svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.888 11.888-11.888 3.176 0 6.161 1.237 8.404 3.48s3.481 5.228 3.481 8.408c0 6.556-5.332 11.888-11.888 11.888-2.003 0-3.976-.506-5.717-1.467l-6.307 1.694zm6.386-4.712c1.556.924 3.39 1.411 5.266 1.411 5.523 0 10.017-4.494 10.017-10.017 0-2.677-1.042-5.193-2.935-7.086-1.892-1.893-4.408-2.935-7.082-2.935-5.523 0-10.017 4.494-10.017 10.017 0 1.871.517 3.694 1.493 5.25l-.995 3.637 3.733-.98c1.516.822 3.228 1.254 4.975 1.254z"></path></svg>
+                        WhatsApp Us
+                    </a>
+</div>
+</div>
+<div class="rounded-xxl overflow-hidden h-[450px] shadow-lg border-8 border-surface-container-lowest">
+<img class="w-full h-full object-cover" data-alt="stylized map showing a specific service area with a clean blue pin marker in the center of a city grid" data-location="Dhaka" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDv7q5nJY8mKkTQ5C0E88LpLCuTyAB88J1bnJ_wfIYQ5UdCESbOjDWfUIBEIP3TEXFV-KSOqtp_izsKxyX0iuK52Em-94f6thDOJfWP03Hnn8ZZ15f8HQ3ObeKBN32hk9LWk8jK-m9zW4CJ44-g_ChHGJwugP-ELBCkIBB87ZgCwaOULOyugF_Tq_z1Pw5eiCLVMtiNO3mKMLEYK0L7F0h24mo14HonZ9XSXWQswLnOyc-6rklqiBhV85DKXCValVNtuEyR0cXfW6E" style="">
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full rounded-t-[2rem] mt-20 bg-slate-50 dark:bg-slate-950">
+<div class="max-w-7xl mx-auto px-8 py-16 grid grid-cols-1 md:grid-cols-3 gap-12">
+<div>
+<span class="text-xl font-bold font-headline" style="color: #48d8f1;">Dhobi Kana</span>
+<p class="mt-6 text-slate-500 dark:text-slate-500 font-body text-sm leading-relaxed" style="">
+                    Premium garment care for the modern individual. We combine traditional care with modern convenience to ensure your wardrobe always looks its best.
+                </p>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-bold text-blue-900 dark:text-sky-400 font-headline uppercase tracking-wider text-xs" style="">Quick Links</h4>
+<a class="text-slate-500 dark:text-slate-500 hover:text-sky-500 transition-colors text-sm" href="#services" style="">Services</a>
+<a class="text-slate-500 dark:text-slate-500 hover:text-sky-500 transition-colors text-sm" href="#pricing" style="">Pricing</a>
+<a class="text-slate-500 dark:text-slate-500 hover:text-sky-500 transition-colors text-sm" href="#contact" style="">Contact</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-bold text-blue-900 dark:text-sky-400 font-headline uppercase tracking-wider text-xs" style="">Legal &amp; Support</h4>
+<a class="text-slate-500 dark:text-slate-500 hover:text-sky-500 transition-colors text-sm" href="#" style="">Privacy Policy</a>
+<a class="text-slate-500 dark:text-slate-500 hover:text-sky-500 transition-colors text-sm" href="#" style="">Terms of Service</a>
+<a class="text-slate-500 dark:text-slate-500 hover:text-sky-500 transition-colors text-sm" href="#" style="">Support</a>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 pb-12 border-t border-slate-200/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
+<p class="text-slate-500 dark:text-slate-500 font-body text-sm" style="">© 2024 Dhobi Kana. Premium Garment Care.</p>
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-slate-400 hover:text-sky-500 cursor-pointer" style="">social_leaderboard</span>
+<span class="material-symbols-outlined text-slate-400 hover:text-sky-500 cursor-pointer" style="">camera</span>
+</div>
+</div>
+</footer>
+
+<!-- Floating WhatsApp Button -->
+<div class="fixed bottom-6 right-6 z-40 group">
+    <div class="absolute inset-0 bg-[#25D366]/20 rounded-full blur-lg group-hover:bg-[#25D366]/40 transition-all duration-300 animate-pulse"></div>
+    <a href="https://wa.me/919677170404" target="_blank" rel="noopener noreferrer" class="relative flex items-center justify-center w-14 h-14 md:w-16 md:h-16 bg-[#25D366] text-white rounded-full shadow-lg hover:shadow-2xl transform transition-all duration-300 hover:scale-110 hover:-translate-y-1">
+        <svg class="w-7 h-7 md:w-8 md:h-8 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.888 11.888-11.888 3.176 0 6.161 1.237 8.404 3.48s3.481 5.228 3.481 8.408c0 6.556-5.332 11.888-11.888 11.888-2.003 0-3.976-.506-5.717-1.467l-6.307 1.694zm6.386-4.712c1.556.924 3.39 1.411 5.266 1.411 5.523 0 10.017-4.494 10.017-10.017 0-2.677-1.042-5.193-2.935-7.086-1.892-1.893-4.408-2.935-7.082-2.935-5.523 0-10.017 4.494-10.017 10.017 0 1.871.517 3.694 1.493 5.25l-.995 3.637 3.733-.98c1.516.822 3.228 1.254 4.975 1.254z"></path></svg>
+    </a>
+    <div class="absolute right-20 bottom-4 bg-gray-900 text-white text-sm font-bold px-4 py-2 rounded-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none shadow-lg">
+        Chat with us
+        <div class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 w-2 h-2 bg-gray-900 rotate-45"></div>
+    </div>
+</div>
+
+<style>
+    @keyframes pulse-ring {
+        0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+        70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+        100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+    }
+    @media print {
+        .fixed.bottom-6.right-6 { display: none; }
+    }
+</style>
+
+</body></html>
